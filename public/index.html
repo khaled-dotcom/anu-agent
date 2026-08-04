@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>منارة — مساعد القبول | جامعة الإسكندرية الأهلية</title>
+<meta name="description" content="اسأل عن البرامج والقبول والتقديم في جامعة الإسكندرية الأهلية، وخد إجابة فورية بمصدرها من الموقع الرسمي.">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#chat">تخطّي إلى المحادثة</a>
+
+<header class="bar">
+  <div class="wrap bar-inner">
+    <a class="brand" href="/">
+      <img src="assets/logo.svg" alt="" width="34" height="34">
+      <span class="brand-text">
+        <strong>منارة</strong>
+        <small>جامعة الإسكندرية الأهلية</small>
+      </span>
+    </a>
+    <nav class="nav" aria-label="روابط الجامعة">
+      <a href="https://anu.edu.eg/ar/programs">البرامج</a>
+      <a href="https://anu.edu.eg/ar/tuition">الرسوم</a>
+      <a href="https://anu.edu.eg/ar/scholarship-aid">المنح</a>
+    </nav>
+    <a class="btn-apply" href="https://anu.edu.eg/ar/admission">القبول والتقديم</a>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+
+    <div class="pitch">
+      <p class="eyebrow">مساعد القبول</p>
+      <h1>اسأل زي ما بتتكلم.<br>الإجابة بمصدرها من موقع الجامعة.</h1>
+      <p class="lede">
+        منارة بيقرا صفحات جامعة الإسكندرية الأهلية ويجاوبك منها هي بس —
+        بالعامية أو بالفصحى أو بالإنجليزي. وأي رقم مش مكتوب في الموقع، بيقولك
+        يرجع لإدارة القبول بدل ما يخمّن.
+      </p>
+      <ul class="marks">
+        <li>كل إجابة معاها لينك الصفحة</li>
+        <li>مش بيخمّن مصاريف ولا مجاميع</li>
+        <li>الحالات الخاصة بتتحوّل لموظف</li>
+      </ul>
+    </div>
+
+    <div class="panel-shell">
+      <div class="beam" id="beam" aria-hidden="true"></div>
+      <div class="panel" id="chat">
+        <div class="panel-top">
+          <img src="assets/logo.svg" alt="" width="26" height="26">
+          <div>
+            <strong>منارة</strong>
+            <span class="status" id="status">جاهز للأسئلة</span>
+          </div>
+        </div>
+
+        <div class="log" id="log" role="log" aria-live="polite" aria-label="المحادثة">
+          <div class="msg bot">
+            <p>أهلاً بيك. اسألني عن البرامج، شروط القبول، خطوات التقديم، أو المنح.</p>
+          </div>
+        </div>
+
+        <div class="chips" id="chips">
+          <button type="button">إيه البرامج المتاحة؟</button>
+          <button type="button">إزاي أقدّم؟</button>
+          <button type="button">المصاريف كام؟</button>
+          <button type="button">في منح؟</button>
+        </div>
+
+        <div class="composer">
+          <label class="sr" for="q">اكتب سؤالك</label>
+          <textarea id="q" rows="1" placeholder="اكتب سؤالك هنا…" maxlength="1000"></textarea>
+          <button id="send" type="button" aria-label="إرسال السؤال">
+            <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M20 12 L4 5 L7 12 L4 19 Z" fill="currentColor"/></svg>
+          </button>
+        </div>
+        <p class="fineprint">إجابات إرشادية. المرجع الرسمي هو إدارة القبول بالجامعة.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="topics wrap">
+  <h2>بيجاوب على إيه</h2>
+  <div class="cards">
+    <article><h3>البرامج</h3><p>البرامج المتاحة، مجالات الدراسة، والخطة الدراسية لكل برنامج.</p></article>
+    <article><h3>القبول</h3><p>شروط التقدّم، المستندات المطلوبة، وطريقة الترشيح للبرنامج.</p></article>
+    <article><h3>الرسوم والمنح</h3><p>مكان الأرقام الرسمية وخطوات السداد، من غير أي تقدير من عنده.</p></article>
+    <article><h3>الحياة الجامعية</h3><p>الحرم في أبيس، دليل الطالب، واللوائح الأكاديمية.</p></article>
+  </div>
+</section>
+
+<section class="how wrap">
+  <h2>بيشتغل إزاي</h2>
+  <ol class="steps">
+    <li><span>يقرا</span><p>سكريبت أسبوعي بيسحب صفحات anu.edu.eg ويحوّلها لمقاطع مفهرسة.</p></li>
+    <li><span>يدوّر</span><p>سؤالك بيتحوّل لبحث عربي مطبّع، فيلاقي المقاطع اللي فيها الإجابة.</p></li>
+    <li><span>يجاوب</span><p>النموذج بيكتب من المقاطع دي بس، وفلتر بيمنع أي رقم مش موجود فيها.</p></li>
+  </ol>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <p>جامعة الإسكندرية الأهلية — حرم جامعة الإسكندرية، أبيس، الإسكندرية.</p>
+    <p><a href="mailto:info@anu.edu.eg">info@anu.edu.eg</a> · <a href="https://anu.edu.eg/ar/contact">صفحة التواصل</a></p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
